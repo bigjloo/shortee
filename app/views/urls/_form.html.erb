@@ -1,0 +1,10 @@
+<%= form_for Url.new, url: urls_new_path do |f| %>
+  
+  <div class="field">
+    <%= f.label "Shorten URL" %><br>
+    <%= f.text_field :long %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Shortee!"%>
+  </div>
+<% end %>

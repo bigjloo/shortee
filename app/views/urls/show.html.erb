@@ -1,0 +1,15 @@
+<h1>Urls#show</h1>
+<p>Find me in app/views/urls/show.html.erb</p>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Long URL:</strong>
+  <%= @url.long %>
+</p>
+<p>
+  <strong>Short URL:</strong>
+  <%= @url.short %>
+</p>
+
+<%= link_to 'Back', urls_index_path %>
